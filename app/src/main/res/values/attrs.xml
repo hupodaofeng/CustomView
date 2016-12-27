@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomAttr">
+        <!--字体色-->
+        <attr name="contentTextColor" format="color"/>
+        <!--自定义view的字体大小-->
+        <attr name="contentTextSize" format="dimension"/>
+        <!--自定义view显示的内容-->
+        <attr name="contentText" format="string"/>
+        <!--最里面圆的半径-->
+        <attr name="minRingRadius" format="integer"/>
+        <!--最里面圆的背景色-->
+        <attr name="minRingBackgroundColor" format="color"/>
+        <!--最外层圆的半径-->
+        <attr name="maxRingSide" format="integer"/>
+        <!--最外层圆的背景色-->
+        <attr name="maxRingBackgroundColor" format="color"/>
+        <!--圆环的宽度-->
+        <attr name="ringWidth" format="integer"/>
+        <!--圆环的颜色-->
+        <attr name="ringColor" format="color"/>
+        <!--描述文字字体大小-->
+        <attr name="descTextSize" format="dimension"/>
+        <!--描述文字-->
+        <attr name="descText" format="string"/>
+        <!--描述文字颜色-->
+        <attr name="descTextColor" format="color"/>
+        <!--当前进度-->
+        <attr name="progress" format="integer"/>
+        <!--最大总进度值-->
+        <attr name="maxProgress" format="integer"/>
+    </declare-styleable>
+</resources>
